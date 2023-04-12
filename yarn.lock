@@ -1069,6 +1069,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@charlesstover/hsl2rgb@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@charlesstover/hsl2rgb/-/hsl2rgb-1.0.4.tgz#6bda4c13b11a3a3499794f08772b19f914ea993b"
+  integrity sha512-g0IEbSlYeTadEGzrlAui6oiZSMB1QfGX9yakVPfkjWYwlMQBfIype/d9SVg1uXHFmbe9Y+SsToZPWKFG1MxI7w==
+
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@expo/bunyan/-/bunyan-4.0.0.tgz#be0c1de943c7987a9fbd309ea0b1acd605890c7b"
@@ -4316,6 +4321,11 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
+memoize-one@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-4.1.0.tgz#a2387c58c03fff27ca390c31b764a79addf3f906"
+  integrity sha512-2GApq0yI/b22J2j9rhbrAlsHb0Qcz+7yWxeLG8h+95sl1XPUgeLimQSOdur4Vw7cUhrBHwaUZxWFZueojqNRzA==
+
 memoize-one@^5.0.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.2.1.tgz#8337aa3c4335581839ec01c3d594090cebe8f00e"
@@ -5316,6 +5326,13 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+rainbow-gradient@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rainbow-gradient/-/rainbow-gradient-1.0.0.tgz#921cf9a4b2def39b9e90d9aa764a8aefc268598d"
+  integrity sha512-BfZAa+U8Fyd3UPcu09zvi73iZf7T7mGcYmHfaLYG3Q8pXhbyQ65Sbns58am6oaSWAy66bOmXl9ptGkdikdaOiQ==
+  dependencies:
+    "@charlesstover/hsl2rgb" "^1.0.4"
+
 range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
@@ -5418,6 +5435,14 @@ react-native@0.71.6:
     use-sync-external-store "^1.0.0"
     whatwg-fetch "^3.0.0"
     ws "^6.2.2"
+
+react-rainbow-text@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-rainbow-text/-/react-rainbow-text-1.0.3.tgz#00f922f72bc55c5e5f4c11548fe75c84a963706d"
+  integrity sha512-++eBSU3OG/rhTq9kCwNqqq/dDnKpOh5eAC2xGvKjt3MWKZ5NeJCWjeOxuFrwsCpnvuxuHYgBZ9LBqLm0GRF90g==
+  dependencies:
+    memoize-one "^4.0.0"
+    rainbow-gradient "^1.0.0"
 
 react-refresh@^0.4.0:
   version "0.4.3"
